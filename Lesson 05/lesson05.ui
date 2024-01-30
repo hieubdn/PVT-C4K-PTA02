@@ -29,6 +29,9 @@
       <pointsize>22</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: red;</string>
+    </property>
     <property name="text">
      <string>ĐĂNG NHẬP</string>
     </property>

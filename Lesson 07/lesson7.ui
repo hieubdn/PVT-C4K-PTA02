@@ -34,37 +34,26 @@
     </property>
     <property name="font">
      <font>
-      <family>Arial</family>
-      <pointsize>14</pointsize>
+      <pointsize>-1</pointsize>
      </font>
     </property>
     <property name="cursor">
      <cursorShape>WaitCursor</cursorShape>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: red;
+background-color: yellow;
+ border-radius: 7rem;
+font-size: 20px</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="lineWidth">
+     <number>6</number>
+    </property>
     <property name="text">
      <string>MindX Technology School</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>290</x>
-      <y>10</y>
-      <width>221</width>
-      <height>121</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::AutoText</enum>
-    </property>
-    <property name="pixmap">
-     <pixmap>../../../../Hình ảnh/Ảnh chụp màn hình/Ảnh chụp màn hình 2024-01-23 181146.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLineEdit" name="input_user">
@@ -90,6 +79,9 @@
      <font>
       <pointsize>16</pointsize>
      </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
     </property>
     <property name="text">
      <string>User:</string>
@@ -143,6 +135,10 @@
     <property name="cursor">
      <cursorShape>ClosedHandCursor</cursorShape>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid black;
+ border-radius: 10px;</string>
+    </property>
     <property name="text">
      <string>Bấm để &quot;OK&quot;</string>
     </property>
@@ -154,7 +150,7 @@
      <x>0</x>
      <y>0</y>
      <width>525</width>
-     <height>16</height>
+     <height>18</height>
     </rect>
    </property>
   </widget>
